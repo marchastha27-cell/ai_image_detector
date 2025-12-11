@@ -32,7 +32,7 @@ This repository is part of the EECS Club Winter Projects, built by Members of EE
 ```mermaid
 graph TB
     A[Frontend - React + Tailwind] --> B[API Layer - FastAPI]
-    B --> C[Inference Serivce - CLIP Embeddings + Classifier MLP/LogReg]
+    B --> C[Inference Serivce]
     C --> D[Model Store (Weightd +Art)]
 ```
 
