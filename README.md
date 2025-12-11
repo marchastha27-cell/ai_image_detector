@@ -4,7 +4,6 @@
 
 ### Detect whether an image is real or AI-generated using ML + Web technologies
 </div>
----
 
 ## 🧭 Project Overview
 
