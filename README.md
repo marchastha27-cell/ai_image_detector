@@ -47,7 +47,7 @@ graph TB
 - 🔥 **Supabase** - Real-time database & auth
 - 🐎 **Uvicorn** - Fast, lightweight web server implementation for Python
 - 🐍 **Pydantic** - validation and settings management
-- 🐳 **Docker** - Shipping and Running Applications
+- 🚄 **Railway** - For backend deployement
 
 ### ML/AI
 - 🔦 **PyTorch**
