@@ -3,6 +3,7 @@
 # AI Image Detector
 
 ### Detect whether an image is real or AI-generated using ML + Web technologies
+
 </div>
 
 ## 🧭 Project Overview
@@ -26,10 +27,13 @@ This project aims to build a full-stack web application that can classify whethe
 This repository is part of the EECS Club Winter Projects, built by Members of EECS Club.
 
 ---
+
 ## 🤝 Contributers
+
 - [Ruvaifa](https://github.com/Ruvaifa)
 
 ## 🏗️ System Architecture
+
 ```mermaid
 graph TB
     A["Frontend - React + Tailwind"] --> B["API Layer - FastAPI"]
@@ -39,11 +43,15 @@ graph TB
 ```
 
 ### 📚 Tech Stack
+
 ### Frontend
+
 - ⚛️ **React 18.3** - Modern UI framework
 - 🎨 **Tailwind CSS** - Utility-first styling
 - 🎯 **Vercel** - for deployment
+
 ### Backend
+
 - 🚀 **FastAPI** - High-performance Python framework
 - 🐘 **PostgreSQL** - Robust relational database
 - 🔥 **Supabase** - Real-time database & auth
@@ -52,12 +60,14 @@ graph TB
 - 🚄 **Railway** - For backend deployement
 
 ### ML/AI
+
 - 🔦 **PyTorch**
 - 📊 **Scikit-learn** (Logistic Regression / XGBoost)
 - ⏱️ **timm** (ViT models)
 - 🧠 NumPy, Pillow, OpenCV
 
 ## 🗂️ Repository Structure
+
 ```
 /project-root
 │
@@ -89,9 +99,11 @@ graph TB
 ├── requirements.txt
 └── README.md
 ```
+
 ---
 
 ## 🧪 Features
+
 ### 🔹 Baseline Model
 
 - Metadata check
@@ -135,22 +147,27 @@ graph TB
 ## 🧪 Dataset Collection Guide
 
 ### 1. Real Images
+
 **Use open datasets:**
+
 - COCO
 - Open Images (CC license)
 
 - Flickr (Creative Commons)
 
 ### 2. AI-Generated Images
+
 **Use:**
+
 - DiffusionDB
 - Stable Diffusion generated images
-- Midjourney samples 
-- DALL·E / Leonardo 
+- Midjourney samples
+- DALL·E / Leonardo
 
 ---
 
 ## 🚀 Getting Started
+
 ```bash
 #Clone the repo
 git clone https://github.com/eecsclubofficial/ai_image_detector
@@ -160,10 +177,12 @@ git clone https://github.com/eecsclubofficial/ai_image_detector
 #Install Dependencies
 pip install -r requirements.txt
 ```
+
 ```bash
 #Run Backend
 uvicorn backend.main:app --reload
 ```
+
 ```bash
 #Run Frontend
 cd frontend
